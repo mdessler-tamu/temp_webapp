@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc",
-    "start": "server.ts"
-  },
+    "start": "node test.js",
+    "dev": "ts-node-dev --respawn server.ts"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC"
